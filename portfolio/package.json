@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "tailwindcss init -p"
+    "postinstall": "tailwindcss init -p",
+    "export": "next export",
+    "build-and-export": "next build && next export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -19,7 +21,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "eslint": "^9.x.x",
+    "glob": "^10.x.x"
   },
   "devDependencies": {
     "@types/node": "^20",
