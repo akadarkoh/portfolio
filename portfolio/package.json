@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "tailwindcss init -p"
+    "postinstall": "tailwindcss init -p",
+    "build-and-export": "next build && next export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
