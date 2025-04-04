@@ -282,14 +282,14 @@ export default function Home() {
                       </div>
 
                       <div className="flex gap-4 mt-auto pt-2">
-                        <Button variant="outline" size="sm" asChild className="group/btn">
+                        <Button variant="outline" size="sm">
                           <Link href="https://github.com/akadarkoh/gameday-schedule" target="_blank" rel="noopener noreferrer" className="flex items-center">
                             <Github className="mr-2 h-4 w-4" />
                             View Code
                             <span className="sr-only">View Code on GitHub</span>
                           </Link>
                         </Button>
-                        <Button size="sm" asChild className="group/btn">
+                        <Button size="sm">
                           <Link href="https://example.com/demo" target="_blank">
                             <ExternalLink className="mr-2 h-4 w-4" />
                             Live Demo
