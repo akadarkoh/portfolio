@@ -24,7 +24,6 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
           phases: {
             preBuild: {
               commands: [
-                'cd portfolio-infrastructure',
                 'echo "Starting build..."',
                 'npm install'
               ]
@@ -37,17 +36,17 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
             }
           },
           artifacts: {
-            baseDirectory: 'portfolio-infrastructure/.next',  
+            baseDirectory: '.next',  
             files: ['**/*']
           },
           cache: {
             paths: [
-              'portfolio-infrastructure/node_modules/**/*',  
-              'portfolio-infrastructure/.next/cache/**/*'
+              'node_modules/**/*',  
+              '.next/cache/**/*'
             ]
           }
         }
-      })
+      }) //build
     });  
 
     // Add main branch
