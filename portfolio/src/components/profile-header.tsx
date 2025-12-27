@@ -16,12 +16,12 @@ export function ProfileHeader() {
         </div>
       </div>
 
-      <h1 className="mb-2 text-3xl font-bold tracking-tight text-foreground">Your Name</h1>
+      <h1 className="mb-2 text-3xl font-bold tracking-tight text-foreground">Kofi Asante Ampim Darkoh</h1>
       <p className="mb-4 text-base text-muted-foreground">Cloud Engineering Professional</p>
 
       <div className="flex items-center justify-center gap-4">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/akadarkoh"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"
@@ -31,7 +31,7 @@ export function ProfileHeader() {
           <span className="text-sm font-medium">GitHub</span>
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/akadarkoh2001"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-foreground"

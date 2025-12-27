@@ -10,14 +10,14 @@ export function ContactSection() {
           className="inline-flex items-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-accent/90"
         >
           <Mail className="h-5 w-5" />
-          your.email@example.com
+          kofiasante2001@yahoo.com
         </a>
         <a
-          href="tel:+1234567890"
+          href="tel:+16143829559"
           className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
         >
           <Phone className="h-5 w-5" />
-          +1 (234) 567-890
+          +1 (614) 382-9559
         </a>
       </div>
     </section>
