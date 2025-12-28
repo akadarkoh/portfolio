@@ -2,10 +2,10 @@ import { ProjectCard } from "./project-card"
 
 const projects = [
   {
-    title: "AWS Lambda Function Optimizer",
-    description: "Developed a tool to analyze and optimize Lambda functions for cost and performance.",
-    link: "https://github.com/yourusername/lambda-optimizer",
-    tools: ["AWS Lambda", "Python", "CloudWatch", "Terraform"],
+    title: "TravelEase Contact Form",
+    description: "TravelEase is a project where users get to make travel reservations by submitting a contact form on the TravelEase company website.",
+    link: "https://github.com/akadarkoh/travelease-contact",
+    tools: ["Lambda", "IAM", "DynamoDB","Python", "CloudWatch", "S3", "API Gateway","Terraform"],
   },
   {
     title: "Multi-Cloud Deployment Pipeline",
