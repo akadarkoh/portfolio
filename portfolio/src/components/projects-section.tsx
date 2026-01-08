@@ -8,10 +8,10 @@ const projects = [
     tools: ["Lambda", "IAM", "DynamoDB","Python", "CloudWatch", "S3", "API Gateway","Terraform"],
   },
   {
-    title: "Multi-Cloud Deployment Pipeline",
-    description: "Created a CI/CD pipeline for deploying applications across multiple cloud providers.",
-    link: "https://github.com/yourusername/multi-cloud-pipeline",
-    tools: ["Jenkins", "Docker", "Kubernetes", "AWS", "Azure"],
+    title: "E-commerce Platform",
+    description: "Secure AWS E-commerce Platform with Hybrid Identity & PCI-Compliant Payments.",
+    link: "https://github.com/akadarkoh/AWS-E-commerce-Platform-",
+    tools: ["s3", "Lambda", "IAM", "CloudFront", "API Gateway", "Okta", "Azure AD", "SAML 2.0", "Monitoring & Security"],
   },
   {
     title: "Kubernetes Cluster Autoscaler",
